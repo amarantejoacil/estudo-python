@@ -1,0 +1,60 @@
+
+# Visão Geral da Programação Orientação Objetivo
+
+    POO = Tem como objetivo observar problemas reais e abstrair dentro 
+    do contexto de codigo, transformar isso em codigo.
+
+    OBJETO                              = CARRO
+        DADOS/CARACTERISTICA/ATRIBULTO  = MODELO, COR DO CARRO, PESO, TIPO DE MOTOR
+        METODOS/COMPORTAMENTOS/FUNCÕES  = LIGAR, DESLIGAR, ACELERAR, LIGAR O AR
+
+_______________________________________________________________________________________
+# Class VS Objetos
+
+    Class = Molde(Representa uma estrutura de dado personalizado)
+    Objeto = Instancia
+
+Exemplo: 
+Classe      Objetivo/Instancia1     Objetivo/Instancia2
+1. Dia              2                       5
+2. Mes           Janeiro                 Novembro
+3. Ano             1993                    2020
+
+Obs. A estrutura da class é mantida... todos seus comportamentos.
+
+[Objeto]
+public class Conta {
+
+[ATRIBULTO]    
+    int numero;
+    double saldo;
+    double limite;
+
+[AÇÕES, COMPORTAMENTOS]
+    void depositar(double valor){
+        this.saldo += valor;
+    }
+_______________________________________________________________________________________
+# Pilares da Orientação Objeto (Principios)
+1- Herença
+    Reuso de comportamentos (Class Pai vindo de um tipo mais generico), funcionalidades
+    FUNCIONARIO -> Class 
+        GERENTE ->      herda de FUNCIONARIO alguns atribultos
+        TELEFONISTA->   herda de FUNCIONARIO alguns atribultos
+        ATENDENTE->     herda de FUNCIONARIO alguns atribultos
+
+2- Polimorfismo
+    Capacidade de Substituir tipo que se comportem do mesmo jeito.
+    Podemos por exemplo tratar o objeto Funcionário como sendo o objeto Pessoa, pois o objeto 
+    Funcionário herda todos as propriedades e métodos do objeto pessoa. 
+    O contrário não pode ser feito, pois o objeto Funcionário possui características que o objeto pessoa não tem.
+
+3- Encapsulamento
+    Capacidade de esconder os detalhes de implementação, exemplo para usar alguma coisa você
+    nao precisa saber exatamente como é feito. Basta saber como utilizar, quais parametros precisa
+
+4- Abstração
+    Saber extrair do mundo real o que é relevante para seu sistemas. Exemplo Cliente, posso
+    ter varios tipos de clientes.
+
+
