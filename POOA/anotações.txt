@@ -1,0 +1,10 @@
+Membro de instância vs Estático
+
+Instancia = preciso iniciar um objeto para depois manipular o dado
+obs. alterando o valor da instancia você só afeta a instância 
+
+
+class ou método estático = consigo acessar diretamente e manipular o dado da class
+obs. porem alterando o dado direto você altera para todos.
+--------
+
